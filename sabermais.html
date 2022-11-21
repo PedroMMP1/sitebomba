@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Pedro Pinheiro</title>
+<link rel="shortcut icon" href="images/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="images/sdmnlogo.png" alt="logo" class="logo"></a>
+            <nav>
+                <ul id="menulist">
+                    <li><a href="https://www.sidemenclothing.com/">Loja</a></li>
+                    <li><a href="https://www.sideplus.com/">Side+</a></li>
+                    <li><a href="https://www.amazon.co.uk/Sidemen-Book-book-youve-waiting/dp/1473648165">Livro</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" alt="menu" class="menu" 
+            onclick="togglemenu()">
+        </div>
+
+<h1> Quem são THE SIDEMEN?</h1>
+
+<div class="conter">
+<p> The Sidemen (anteriormente conhecidos como The Ultimate Sidemen), criados a 19 de Outubro de 2013, são um grupo britânico do YouTube composto por KSI (Olajide "JJ" Olatunji - Imagem 1), 
+    Miniminter (Simon Minter - Imagem 2), Behzinga (Ethan Payne - Imagem 3), W2S (Harry Lewis - Imagem 4), Vikkstar123 (Vikram Barn - Imagem 5), TBJZL (Tobi Brown - Imagem 6) e Zerkaa (Josh Bradley - Imagem 7). 
+    Eles são o maior grupo do YouTube no Reino Unido.
+    The Sidemen são um grupo de amigos que começaram a jogar jogos de virtuais online juntos no início da década de 2010. 
+    À medida que a década avançava, eles ramificaram-se em conteúdos mais variados e criaram uma marca comercial a partir do seu nome. 
+    Desde Janeiro de 2018, têm carregado vídeos semanais para o seu canal de grupo sob a bandeira de "Sidemen Sunday".</p>
+        <div class="gallery">
+            <a href="https://www.youtube.com/@jjolatunji" target="_blank"><img src="images/ksi.jpg" title="KSI"/></a>
+            <a href="https://www.youtube.com/@Miniminter" target="_blank"><img src="images/simon.jpg" title="MINIMINTER"/></a>
+            <a href="https://www.youtube.com/@Behzinga" target="_blank"><img src="images/ethan.jpg" title="BEHZINGA"/></a>
+            <a href="https://www.youtube.com/@w2s" target="_blank"><img src="images/harry.jpg" title="W2S"/></a>
+            <a href="https://www.youtube.com/@Vikkstar123" target="_blank"><img src="images/vik.jpg" title="VIKKSTAR123"/></a>
+            <a href="https://www.youtube.com/@TBJZL" target="_blank"><img src="images/tobi.jpg" title="TBJZL"/></a>
+            <a href="https://www.youtube.com/@ZerkaaHD" target="_blank"><img src="images/josh.jpg" title="ZERKAA"/></a>
+            <a href="https://www.youtube.com/channel/UCDogdKl7t7NHzQ95aEwkdMw" target="_blank"><img src="images/Sidemen.jpg" title="SIDEMEN"/></a>
+          </div>
+        </div>
+
+
+        </div>
+        <div class="social-links">
+            <a href="https://instagram.com/sidemen?igshid=18ev38uqw957"><img src="images/insta.png" alt="instagram"></a>
+            <a href="https://twitter.com/sidemen?s=21"><img src="images/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com/c/Sidemen"><img src="images/yt.png" alt="youtube"></a>
+        </div>
+    </div>
+    
+    <script>
+
+        var menulist = document.getElementById("menulist");
+
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu(){
+            
+            if(menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight = "130px"
+            }
+        else
+        {
+            menulist.style.maxHeight = "0px"
+        }
+        }
+    
+    </script>
+
+
+</body>
+</html>

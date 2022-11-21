@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Pedro Pinheiro</title>
+<link rel="shortcut icon" href="images/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <div class="container">
+        <div id="bomba"></div>
+        <div class="navbar">
+            <a href="index.html"><img src="images/sdmnlogo.png" alt="logo" class="logo"></a>
+            <nav>
+                <ul id="menulist">
+                    <li><a href="https://www.sidemenclothing.com/">Loja</a></li>
+                    <li><a href="https://www.sideplus.com/">Side+</a></li>
+                    <li><a href="https://www.amazon.co.uk/Sidemen-Book-book-youve-waiting/dp/1473648165">Livro</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" alt="menu" class="menu" 
+            onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>SIDEMEN</h2>
+                <h3>"Youtube Superstars"</h3>
+                <p>The Guardian</p>
+                <button type="button" onclick="window.location.href='sabermais.html';">Saber Mais<img src="images/arrow.png">
+                </button>
+            </div>
+            <div class="col-2">
+                <img src="images/sdmngroup.png" alt="sidemen" class="sidemen">
+                <div class="color-box"></div>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://instagram.com/sidemen?igshid=18ev38uqw957"><img src="images/insta.png" alt="instagram"></a>
+            <a href="https://twitter.com/sidemen?s=21"><img src="images/twitter.png" alt="twitter"></a>
+            <a href="https://www.youtube.com/c/Sidemen"><img src="images/yt.png" alt="youtube"></a>
+        </div>
+    </div>
+    
+    <script>
+
+        var menulist = document.getElementById("menulist");
+
+        menulist.style.maxHeight = "0px";
+
+        function togglemenu(){
+            
+            if(menulist.style.maxHeight == "0px")
+            {
+                menulist.style.maxHeight = "130px"
+            }
+        else
+        {
+            menulist.style.maxHeight = "0px"
+        }
+        }
+    
+    </script>
+
+
+</body>
+</html>
